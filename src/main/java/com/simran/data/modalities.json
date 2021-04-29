@@ -1,0 +1,660 @@
+{
+  "modalities": [
+    {
+      "name": "chat",
+      "metaTags": "chat",
+      "linkText": "Chat",
+      "htmlId": "modality-contact-link-chat",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "msa-unauth-chat-en-modality",
+      "metaTags": "msa-unauth-chat-en-modality",
+      "linkText": "Chat",
+      "htmlId": "modality-contact-link-msa-unauth-chat-en-modality",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "callback",
+      "metaTags": "callback",
+      "linkText": "Call me back",
+      "htmlId": "modality-contact-link-callback",
+      "icon": "E717",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "schedulecallback",
+      "metaTags": "schedule-call",
+      "linkText": "Schedule a call",
+      "htmlId": "modality-contact-link-schedulecallback",
+      "icon": "E787",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "community",
+      "metaTags": "community",
+      "linkText": "Ask the community",
+      "htmlId": "modality-contact-link-community",
+      "icon": "E902",
+      "description": "Get troubleshooting feedback from our worldwide community.",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "ambassadors",
+      "metaTags": "ambassador",
+      "linkText": "Chat with a community volunteer",
+      "htmlId": "",
+      "icon": "E8F2",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "contactanonymousoem",
+      "metaTags": "device-custom,anon-oem",
+      "linkText": "My device ({deviceModel})",
+      "htmlId": "modality-oem-link-anon",
+      "icon": "E770",
+      "description": "If your device is still under warranty, contact {manufacturerName} for support.",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "contactmsoem",
+      "metaTags": "device-custom,ms-device",
+      "linkText": "My Surface",
+      "htmlId": "modality-oem-link-ms",
+      "icon": "E770",
+      "description": "Device, installation, and warranty issues.",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "contactoemsupport",
+      "metaTags": "device-custom",
+      "linkText": "My device ({deviceModel})",
+      "htmlId": "modality-oem-link-named",
+      "icon": "E770",
+      "description": "If your device is still under warranty, contact {manufacturerName} for support.",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "devicerepair",
+      "metaTags": "device-repair",
+      "linkText": "Schedule a repair",
+      "htmlId": "modality-contact-link-devicerepair",
+      "icon": "E770",
+      "description": "Register your device and determine available repair options",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "email",
+      "metaTags": "email",
+      "linkText": "Email us",
+      "htmlId": "modality-contact-link-email",
+      "icon": "E715",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "findpurchaseortransaction",
+      "metaTags": "orders",
+      "linkText": "Find a purchase or transaction",
+      "htmlId": "modality-contact-link-findpurchasetransaction",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "paymentoptions",
+      "metaTags": "payment-options",
+      "linkText": "Payment options",
+      "htmlId": "modality-contact-link-paymentoptions",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "tollfree",
+      "metaTags": "phone",
+      "linkText": "Call a toll free number:",
+      "htmlId": "modality-contact-link-phone",
+      "icon": "E717",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": false,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "resetpassword",
+      "metaTags": "reset-password",
+      "linkText": "Reset your password",
+      "htmlId": "modality-contact-link-resetpassword",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "msa-recover-username-modality",
+      "metaTags": "",
+      "linkText": "Recover your User Name",
+      "htmlId": "modality-contact-link-msa-recover-username",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "msa-close-account-modality",
+      "metaTags": "",
+      "linkText": "Close your Microsoft Account",
+      "htmlId": "modality-contact-link-msa-close-account",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "servicesandsubscriptions",
+      "metaTags": "services-subscriptions",
+      "linkText": "Services & subscription",
+      "htmlId": "modality-contact-link-servicesandsubscriptions",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "tweet",
+      "metaTags": "tweet",
+      "linkText": "Tweet @xboxsupport",
+      "htmlId": "",
+      "icon": "",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": "https://compass-ssl.microsoft.com/assets/46/b7/46b7975d-f83b-449d-8fe1-be79c55b06df.svg?n=Twitter_Social_Icon_Grey.svg"
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "unauthcallback",
+      "metaTags": "callback",
+      "linkText": "Call me back",
+      "htmlId": "modality-contact-link-unauth-callback",
+      "icon": "E717",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "unauthchat",
+      "metaTags": "chat",
+      "linkText": "Chat",
+      "htmlId": "modality-contact-link-unauth-chat",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": false,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "scheduleappointment",
+      "metaTags": "schedule-appointment",
+      "linkText": "Schedule an appointment",
+      "htmlId": "modality-contact-link-scheduleappointment",
+      "icon": "E787",
+      "description": "Find a store near you to bring in your device for hands-on support from a Microsoft expert.",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-close-account",
+      "metaTags": "skype-close-account",
+      "linkText": "Close your Skype account",
+      "htmlId": "modality-contact-link-skypecloseaccount",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-payments-purchases",
+      "metaTags": "skype-payments-purchases",
+      "linkText": "View your Skype payments and purchases",
+      "htmlId": "modality-contact-link-skypepaymentpurchases",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-profile-settings",
+      "metaTags": "skype-profile-settings",
+      "linkText": "View your Skype profile and settings",
+      "htmlId": "modality-contact-link-skypeprofilesettings",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-reset-password",
+      "metaTags": "skype-reset-password",
+      "linkText": "Reset your Skype password",
+      "htmlId": "modality-contact-link-skyperesetpassword",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-security-vulnerability",
+      "metaTags": "skype-security-vulnerability",
+      "linkText": "Report a computer security vulnerability",
+      "htmlId": "modality-contact-link-skypesecurityvulnerability",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-service-status",
+      "metaTags": "skype-service-status",
+      "linkText": "Check Skype service status",
+      "htmlId": "modality-contact-link-skypeservicestatus",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "skype-troubleshoot-account",
+      "metaTags": "skype-troubleshoot-account",
+      "linkText": "Troubleshoot your account",
+      "htmlId": "modality-contact-link-skypetroubleshootaccount",
+      "icon": "E90F",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "helpshift",
+      "metaTags": "helpshift",
+      "linkText": "Chat",
+      "htmlId": "modality-contact-link-helpshift-chat",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "rave-chat-bot",
+      "metaTags": "chat",
+      "linkText": "Chat",
+      "htmlId": "modality-contact-link-rave-chat",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": true,
+      "isDirectlyModality": true
+    },
+    {
+      "name": "message-gamer",
+      "metaTags": "message-gamer",
+      "linkText": "Message with an Xbox Gamer",
+      "htmlId": "modality-contact-link-xboxmessagegamer",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": true
+    },
+    {
+      "name": "message-windows-advisor",
+      "metaTags": "message-windows-advisor",
+      "linkText": "Message a Windows Advisor",
+      "htmlId": "modality-contact-link-messagewindowsadvisor",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": true
+    },
+    {
+      "name": "message-ambassador",
+      "metaTags": "message-ambassador",
+      "linkText": "Message Ambassador",
+      "htmlId": "",
+      "icon": "E8F2",
+      "description": "Message Ambassador",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "message-gamer2",
+      "metaTags": "message-gamer2",
+      "linkText": "Message with an Xbox Gamer",
+      "htmlId": "modality-contact-link-xboxmessagegamer",
+      "icon": "E8BD",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": true
+    },
+    {
+      "name": "ravecallback",
+      "metaTags": "ravecallback ",
+      "linkText": "Call me back",
+      "htmlId": "modality-contact-link-ravecallback",
+      "icon": "E717",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "auth-form-pc-accessory",
+      "metaTags": "auth-form-pc-accessory",
+      "linkText": "Submit PC Accessory replacement request",
+      "htmlId": "",
+      "icon": "E715",
+      "description": "If your PC Accessory is broken or not working, fill out this form to submit a replacement request",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "follow-us-on-wechat-modality",
+      "metaTags": "follow-us-on-wechat-modality",
+      "linkText": "Follow Us On Wechat",
+      "htmlId": "modality-contact-link-followusonwechatmodality",
+      "icon": "E8F2",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "privacy-general",
+      "metaTags": "privacy-general",
+      "linkText": "Submit a request",
+      "htmlId": "privacy-general-modality",
+      "icon": "E715",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "support-for-business",
+      "metaTags": "support-for-business",
+      "linkText": "Support for Business",
+      "htmlId": "support-for-business",
+      "icon": "EA04",
+      "description": "For ITPros and Developers. Get help with Edge deployment, development, and management. ",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    },
+    {
+      "name": "click-more-information-modality",
+      "metaTags": "click-more-information-modality",
+      "linkText": "Click here for more information",
+      "htmlId": "modality-click-for-more-information",
+      "icon": "E8FB",
+      "description": "",
+      "isExternalLink": true,
+      "externalLinkDescription": "",
+      "isClickableLink": true,
+      "image": {
+        "url": null
+      },
+      "hasHoops": false,
+      "isDirectlyModality": false
+    }
+  ]
+}
